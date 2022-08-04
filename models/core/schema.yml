@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: analytics
+    columns:
+      
+      - name: provider_number
+        tests:
+          - unique
+          - not_null
+    
